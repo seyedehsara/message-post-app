@@ -1,0 +1,43 @@
+swagger: "2.0"
+info:
+  title: "Message Post API"
+  description: "REST API for managing posts"
+  version: "1.0.0"
+host: crystalloids-candidates.ew.r.appspot.com
+x-google-endpoints:
+- name: crystalloids-candidates.ew.r.appspot.com
+  allowCors: true
+
+schemes:
+- https
+produces:
+- application/json
+
+paths:
+  /posts:
+    get:
+      summary: "List all posts"
+      operationId: getPosts
+      responses:
+        "200":
+          description: "A list of posts"
+    post:
+      summary: "Create a new post"
+      operationId: createPost
+      responses:
+        "201":
+          description: "Post created"
+
+  /posts/{post_id}:
+    put:
+      summary: "Update a post"
+      operationId: updatePost
+      parameters:
+      - name: post_id
+        in: path
+        required: true
+        type: string
+      responses:
+        "200":
+          description: "Post updated"
+

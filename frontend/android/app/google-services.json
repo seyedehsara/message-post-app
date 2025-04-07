@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "767971588081",
+    "project_id": "message-app-sara",
+    "storage_bucket": "message-app-sara.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767971588081:android:bc13d45e862ccf932e3650",
+        "android_client_info": {
+          "package_name": "com.example.message_post_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH4gjPbtfzLbNX879Qg4BOx6NWFfA6wnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

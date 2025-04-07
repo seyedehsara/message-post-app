@@ -1,0 +1,6 @@
+Flask
+gunicorn
+google-cloud-firestore
+flask-cors
+requests
+python-dotenv
